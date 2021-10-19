@@ -26,7 +26,7 @@ async def start(event):
     buttons=(
          [
         Button.url("🔰Summon ME🔰",'t.me/MentiiiiBoT?startgroup=true')
-      ]
+      ],
       [
         Button.url('📣 Management Bot', 'https://t.me/ShouyouROBOT'),
         Button.url('📦 Music Bot', 'https://t.me/ShououMusicBOT')
@@ -43,7 +43,7 @@ async def help(event):
     buttons=(
          [
         Button.url("🔰Summon ME🔰",'t.me/MentiiiiBoT?startgroup=true')
-      ]
+      ],
       [
         Button.url('📣 Management Bot', 'https://t.me/ShouyouROBOT'),
         Button.url('📦 Music Bot', 'https://t.me/ShououMusicBOT')
