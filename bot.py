@@ -31,9 +31,6 @@ async def start(event):
         Button.url('📣 Management Bot', 'https://t.me/ShouyouROBOT'),
         Button.url('📦 Music Bot', 'https://t.me/ShououMusicBOT')
       ]
-         [
-        Button.url('📣 Help', callback_data="help_back")
-      ]
     )
   )
 
@@ -50,9 +47,6 @@ async def help(event):
       [
         Button.url('📣 Management Bot', 'https://t.me/ShouyouROBOT'),
         Button.url('📦 Music Bot', 'https://t.me/ShououMusicBOT')
-      ]
-         [
-        Button.url('📣 Help', callback_data="help_back")
       ]
     )
   )
